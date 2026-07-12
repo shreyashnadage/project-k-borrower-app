@@ -1,0 +1,87 @@
+{
+  "common": {
+    "appName": "VendorFin",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "back": "Back",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "phone": "Phone Number",
+    "otp": "Enter OTP",
+    "sendOtp": "Send OTP",
+    "verifyOtp": "Verify OTP",
+    "phoneHint": "Enter your 10-digit mobile number",
+    "otpSent": "OTP sent to your number",
+    "newUser": "New here? Register",
+    "existingUser": "Already registered? Login"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome",
+    "activeLoans": "Active Loans",
+    "pendingApplications": "Pending Applications",
+    "totalDisbursed": "Total Disbursed",
+    "quickApply": "Apply for Loan",
+    "noLoans": "No active loans yet",
+    "noApplications": "No pending applications"
+  },
+  "apply": {
+    "title": "Apply for Loan",
+    "selectInvoice": "Select Invoice",
+    "invoiceAmount": "Invoice Amount",
+    "loanAmount": "Loan Amount",
+    "tenure": "Tenure (days)",
+    "anchor": "Anchor (Buyer)",
+    "confirmApplication": "Confirm & Submit",
+    "success": "Application submitted successfully!"
+  },
+  "applications": {
+    "title": "My Applications",
+    "status": "Status",
+    "amount": "Amount",
+    "date": "Date",
+    "viewDetails": "View Details",
+    "gateProgress": "Processing Status",
+    "noApplications": "No applications yet"
+  },
+  "offers": {
+    "title": "Loan Offer",
+    "amount": "Loan Amount",
+    "rate": "Interest Rate",
+    "tenure": "Tenure",
+    "emi": "EMI",
+    "lender": "Lender",
+    "accept": "Accept Offer",
+    "reject": "Reject Offer",
+    "expires": "Expires on"
+  },
+  "gates": {
+    "d0": "Invoice Verification",
+    "d1": "Data Collection",
+    "d2": "Analysis",
+    "d3": "Lender Matching",
+    "lender": "Lender Decision"
+  },
+  "status": {
+    "pending": "Pending",
+    "processing": "Processing",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "disbursed": "Disbursed",
+    "completed": "Completed",
+    "expired": "Expired"
+  },
+  "nav": {
+    "dashboard": "Home",
+    "apply": "Apply",
+    "applications": "Applications",
+    "profile": "Profile"
+  }
+}

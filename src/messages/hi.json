@@ -1,0 +1,87 @@
+{
+  "common": {
+    "appName": "VendorFin",
+    "loading": "लोड हो रहा है...",
+    "error": "कुछ गलत हो गया",
+    "retry": "पुनः प्रयास करें",
+    "back": "वापस",
+    "submit": "सबमिट करें",
+    "cancel": "रद्द करें",
+    "confirm": "पुष्टि करें",
+    "logout": "लॉगआउट"
+  },
+  "auth": {
+    "login": "लॉगिन",
+    "register": "पंजीकरण",
+    "phone": "मोबाइल नंबर",
+    "otp": "OTP दर्ज करें",
+    "sendOtp": "OTP भेजें",
+    "verifyOtp": "OTP सत्यापित करें",
+    "phoneHint": "अपना 10 अंकों का मोबाइल नंबर दर्ज करें",
+    "otpSent": "आपके नंबर पर OTP भेजा गया",
+    "newUser": "नए हैं? पंजीकरण करें",
+    "existingUser": "पहले से पंजीकृत? लॉगिन करें"
+  },
+  "dashboard": {
+    "title": "डैशबोर्ड",
+    "welcome": "स्वागत",
+    "activeLoans": "सक्रिय ऋण",
+    "pendingApplications": "लंबित आवेदन",
+    "totalDisbursed": "कुल वितरित",
+    "quickApply": "ऋण के लिए आवेदन करें",
+    "noLoans": "अभी तक कोई सक्रिय ऋण नहीं",
+    "noApplications": "अभी तक कोई लंबित आवेदन नहीं"
+  },
+  "apply": {
+    "title": "ऋण के लिए आवेदन",
+    "selectInvoice": "इनवॉइस चुनें",
+    "invoiceAmount": "इनवॉइस राशि",
+    "loanAmount": "ऋण राशि",
+    "tenure": "अवधि (दिन)",
+    "anchor": "एंकर (खरीदार)",
+    "confirmApplication": "पुष्टि करें और सबमिट करें",
+    "success": "आवेदन सफलतापूर्वक सबमिट हुआ!"
+  },
+  "applications": {
+    "title": "मेरे आवेदन",
+    "status": "स्थिति",
+    "amount": "राशि",
+    "date": "तारीख",
+    "viewDetails": "विवरण देखें",
+    "gateProgress": "प्रसंस्करण स्थिति",
+    "noApplications": "अभी तक कोई आवेदन नहीं"
+  },
+  "offers": {
+    "title": "ऋण प्रस्ताव",
+    "amount": "ऋण राशि",
+    "rate": "ब्याज दर",
+    "tenure": "अवधि",
+    "emi": "EMI",
+    "lender": "ऋणदाता",
+    "accept": "प्रस्ताव स्वीकारें",
+    "reject": "प्रस्ताव अस्वीकार करें",
+    "expires": "समाप्ति तिथि"
+  },
+  "gates": {
+    "d0": "इनवॉइस सत्यापन",
+    "d1": "डेटा संग्रह",
+    "d2": "विश्लेषण",
+    "d3": "ऋणदाता मिलान",
+    "lender": "ऋणदाता निर्णय"
+  },
+  "status": {
+    "pending": "लंबित",
+    "processing": "प्रसंस्करण में",
+    "approved": "स्वीकृत",
+    "rejected": "अस्वीकृत",
+    "disbursed": "वितरित",
+    "completed": "पूर्ण",
+    "expired": "समाप्त"
+  },
+  "nav": {
+    "dashboard": "होम",
+    "apply": "आवेदन",
+    "applications": "आवेदन",
+    "profile": "प्रोफाइल"
+  }
+}

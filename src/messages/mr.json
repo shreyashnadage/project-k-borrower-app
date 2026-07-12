@@ -1,0 +1,87 @@
+{
+  "common": {
+    "appName": "VendorFin",
+    "loading": "लोड होत आहे...",
+    "error": "काहीतरी चूक झाली",
+    "retry": "पुन्हा प्रयत्न करा",
+    "back": "मागे",
+    "submit": "सबमिट करा",
+    "cancel": "रद्द करा",
+    "confirm": "पुष्टी करा",
+    "logout": "लॉगआउट"
+  },
+  "auth": {
+    "login": "लॉगिन",
+    "register": "नोंदणी",
+    "phone": "मोबाईल नंबर",
+    "otp": "OTP टाका",
+    "sendOtp": "OTP पाठवा",
+    "verifyOtp": "OTP सत्यापित करा",
+    "phoneHint": "तुमचा १० अंकी मोबाईल नंबर टाका",
+    "otpSent": "तुमच्या नंबरवर OTP पाठवला",
+    "newUser": "नवीन आहात? नोंदणी करा",
+    "existingUser": "आधीच नोंदणी केली आहे? लॉगिन करा"
+  },
+  "dashboard": {
+    "title": "डॅशबोर्ड",
+    "welcome": "स्वागत",
+    "activeLoans": "सक्रिय कर्ज",
+    "pendingApplications": "प्रलंबित अर्ज",
+    "totalDisbursed": "एकूण वितरित",
+    "quickApply": "कर्जासाठी अर्ज करा",
+    "noLoans": "अद्याप सक्रिय कर्ज नाही",
+    "noApplications": "अद्याप प्रलंबित अर्ज नाहीत"
+  },
+  "apply": {
+    "title": "कर्जासाठी अर्ज करा",
+    "selectInvoice": "इन्व्हॉइस निवडा",
+    "invoiceAmount": "इन्व्हॉइस रक्कम",
+    "loanAmount": "कर्ज रक्कम",
+    "tenure": "कालावधी (दिवस)",
+    "anchor": "अँकर (खरेदीदार)",
+    "confirmApplication": "पुष्टी करा आणि सबमिट करा",
+    "success": "अर्ज यशस्वीरित्या सबमिट झाला!"
+  },
+  "applications": {
+    "title": "माझे अर्ज",
+    "status": "स्थिती",
+    "amount": "रक्कम",
+    "date": "तारीख",
+    "viewDetails": "तपशील पहा",
+    "gateProgress": "प्रक्रिया स्थिती",
+    "noApplications": "अद्याप अर्ज नाहीत"
+  },
+  "offers": {
+    "title": "कर्ज ऑफर",
+    "amount": "कर्ज रक्कम",
+    "rate": "व्याज दर",
+    "tenure": "कालावधी",
+    "emi": "EMI",
+    "lender": "कर्जदाता",
+    "accept": "ऑफर स्वीकारा",
+    "reject": "ऑफर नाकारा",
+    "expires": "मुदत संपते"
+  },
+  "gates": {
+    "d0": "इन्व्हॉइस सत्यापन",
+    "d1": "डेटा संकलन",
+    "d2": "विश्लेषण",
+    "d3": "कर्जदाता जुळवणी",
+    "lender": "कर्जदाता निर्णय"
+  },
+  "status": {
+    "pending": "प्रलंबित",
+    "processing": "प्रक्रियेत",
+    "approved": "मंजूर",
+    "rejected": "नाकारले",
+    "disbursed": "वितरित",
+    "completed": "पूर्ण",
+    "expired": "मुदत संपली"
+  },
+  "nav": {
+    "dashboard": "होम",
+    "apply": "अर्ज करा",
+    "applications": "अर्ज",
+    "profile": "प्रोफाइल"
+  }
+}
