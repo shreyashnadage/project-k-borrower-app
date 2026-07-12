@@ -2,6 +2,7 @@ import { mockInvoices, mockApplications, mockOffers, mockActiveLoans } from './m
 import type { Invoice, LoanApplication, LoanOffer, ActiveLoan } from './mock-data';
 
 const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8080/api/v1';
+const PLATFORM_BASE = process.env.NEXT_PUBLIC_PLATFORM_URL || 'http://localhost:8000';
 const USE_MOCK = process.env.NEXT_PUBLIC_AUTH_MOCK === 'true';
 
 function delay(ms: number) {
@@ -89,6 +90,29 @@ export const apiClient = {
       return { activeLoans: mockActiveLoans.length, pendingApplications: mockApplications.filter(a => a.status === 'processing' || a.status === 'pending').length, totalDisbursed: 250000 };
     }
     const res = await fetch(`${API_BASE}/dashboard/stats`, { credentials: 'include' });
+    return res.json();
+  },
+
+  async activateInvite(data: {
+    invite_token: string;
+    name: string;
+    gstin: string;
+    phone: string;
+    udyam_number?: string;
+  }): Promise<{ vendor_id: string; status: string; message: string }> {
+    if (USE_MOCK) {
+      await delay(1000);
+      return { vendor_id: 'mock-vendor-' + Date.now(), status: 'active', message: 'Account activated.' };
+    }
+    const res = await fetch(`${PLATFORM_BASE}/vendors/activate`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data),
+    });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({ detail: 'Activation failed' }));
+      throw new Error(err.detail || 'Activation failed');
+    }
     return res.json();
   },
 };
